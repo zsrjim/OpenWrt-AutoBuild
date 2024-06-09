@@ -297,7 +297,7 @@ cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-adbyby-plus=n #adbyby去广告
 CONFIG_PACKAGE_luci-app-webadmin=n #Web管理页面设置
 CONFIG_PACKAGE_luci-app-ddns=n #DDNS服务
-CONFIG_DEFAULT_luci-app-vlmcsd=n #KMS激活服务器
+CONFIG_DEFAULT_luci-app-vlmcsd is not set #KMS激活服务器
 CONFIG_PACKAGE_luci-app-filetransfer=y #系统-文件传输
 CONFIG_PACKAGE_luci-app-autoreboot=n #定时重启
 CONFIG_PACKAGE_luci-app-upnp=n #通用即插即用UPnP(端口自动转发)
