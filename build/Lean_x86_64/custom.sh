@@ -262,8 +262,9 @@ CONFIG_PACKAGE_luci-app-openclash=y #OpenClash客户端
 # CONFIG_PACKAGE_luci-app-adguardhome=y #ADguardhome
 CONFIG_PACKAGE_luci-app-poweroff=y #关机（增加关机功能）
 # CONFIG_PACKAGE_luci-app-argon-config=y #argon主题设置
-CONFIG_PACKAGE_luci-theme-atmaterial_new=n #atmaterial 三合一主题
-CONFIG_PACKAGE_luci-theme-neobird=n #Neobird 主题
+# CONFIG_PACKAGE_luci-theme-atmaterial_new=n #atmaterial 三合一主题
+# CONFIG_PACKAGE_luci-theme-neobird=n #Neobird 主题
+CONFIG_PACKAGE_luci-theme-opentopd=y
 # CONFIG_PACKAGE_luci-app-autotimeset=y #定时重启系统，网络
 # CONFIG_PACKAGE_luci-app-ddnsto=y #小宝开发的DDNS.to内网穿透
 # CONFIG_PACKAGE_ddnsto=y #DDNS.to内网穿透软件包
@@ -297,7 +298,7 @@ cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-adbyby-plus=n #adbyby去广告
 CONFIG_PACKAGE_luci-app-webadmin=n #Web管理页面设置
 CONFIG_PACKAGE_luci-app-ddns=n #DDNS服务
-#CONFIG_DEFAULT_luci-app-vlmcsd is not set #KMS激活服务器
+CONFIG_DEFAULT_luci-app-vlmcsd is not set #KMS激活服务器
 CONFIG_PACKAGE_luci-app-filetransfer=y #系统-文件传输
 CONFIG_PACKAGE_luci-app-autoreboot=n #定时重启
 CONFIG_PACKAGE_luci-app-upnp=n #通用即插即用UPnP(端口自动转发)
